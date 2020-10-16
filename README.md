@@ -1,4 +1,5 @@
 # Generalized-Variance-Inflation-Factor GVIF)
+- Chris Organ
 - Variance inflation factors are not fully applicable to models that include a set of one-hot encoded regressors (i.e. recoded multinomial categorical variables), or polynomial regressors.
 - Generalized VIF (GVIF): Fox and Monette 1992; is a solution
     - GVIF = det(R11) * det(R22) / det(R)
